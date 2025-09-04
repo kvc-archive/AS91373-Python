@@ -18,8 +18,8 @@
     <div class="editor">
       <div id="editor">Loading code...</div>
       <div class="buttons">
-        <button onclick="runCode()">Run</button>
-        <button>Submit</button>
+        <button onclick="showStatic()">Run</button>
+        <button onclick="showStatic()">Submit</button>
       </div>
     </div>
     <div class="output" id="output">
@@ -33,27 +33,21 @@
     editor.setTheme("ace/theme/monokai");
     editor.session.setMode("ace/mode/python");
 
-    // Load external Python file
+    // Load external Python file into editor
     fetch("Pizza delivery.py")
       .then(res => res.text())
       .then(txt => {
-        editor.setValue(txt, -1); // -1 = move cursor to top
+        editor.setValue(txt, -1);
       })
       .catch(err => {
         editor.setValue("# Error loading python file:\n" + err, -1);
       });
 
-    // Run button (simulated)
-    function runCode() {
-      const code = editor.getValue();
+    // Static placeholder (no real Python execution)
+    function showStatic() {
       const output = document.getElementById("output");
-      output.textContent = ">> Running code...\n";
-
-      // Since static HTML can't execute Python:
-      output.textContent += "Welcome to Dream Pizzas.\n";
-      output.textContent += ">> (To run real Python, connect a backend or Pyodide)\n";
+      output.textContent = ">> UI is static, no Python execution available here.";
     }
   </script>
-  
 </body>
 </html>
