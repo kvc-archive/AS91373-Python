@@ -10,7 +10,6 @@ It collects customer details, presents menu options, validates input, and calcul
 - [Usage](#usage)  
 - [Support](#support)  
 - [Contributing](#contributing)  
-- [License](#license)  
 
 ## Features
 
