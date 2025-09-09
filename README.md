@@ -26,7 +26,7 @@ It collects customer details, presents menu options, validates input, and calcul
 
 ```sh
 git clone https://github.com/your-username/AS91373-Python.git
-cd dream-pizzas
+cd AS91373-Python
 ```
 
 2. Ensure you have Python 3 installed:
