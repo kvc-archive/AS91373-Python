@@ -25,7 +25,7 @@ It collects customer details, presents menu options, validates input, and calcul
 1. Clone the repository:  
 
 ```sh
-git clone https://github.com/your-username/dream-pizzas.git
+git clone https://github.com/your-username/AS91373-Python.git
 cd dream-pizzas
 ```
 
@@ -41,7 +41,7 @@ python --version
 
 Run the program in your terminal:
 ```sh
-python pizzas.py
+python Pizza delivery.py
 ```
 
 Follow the prompts to enter your name, address, contact number, and select your pizzas.
@@ -55,8 +55,8 @@ Example flow:
 
 ## Support
 
-Please [open an issue](https://github.com/your-username/dream-pizzas/issues/new) for support.
+Please [open an issue](https://github.com/kvc-archive/AS91373-Python/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/your-username/dream-pizzas/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/kvc-archive/AS91373-Python/compare/).
